@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Toolbox</title>
+    <!-- bootstrap css -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- hover.css -->
+    <link rel="stylesheet" href="hover.css" />
+    <!-- animate.css -->
+    <link rel="stylesheet" href="animate.css" />
+    <!-- copied -->
+    <link rel="stylesheet" href="copied.css" />
+    <!-- custom -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- responsive navbar -->
+    <ul class="topnav">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <div id="body">
+      <!-- https://github.com/daneden/animate.css -->
+      <div class="header">
+        <h1 class="animated infinite swing delay-5s">animate.css</h1>
+      </div>
+      <!-- http://ianlunn.github.io/Hover/ -->
+      <div class="header">
+        <h1 class="hvr-underline-from-left">hover.css</h1>
+      </div>
+    </div>
+    <!-- on click js -->
+    <div class="header">
+      <h1 id="clickId" onclick="clickFunc()">on click</h1>
+    </div>
+    <!-- on mouse move js -->
+    <div class="header">
+      <h1 id="hoverId" class="width25" onmousemove="hoverFunc()">mouse over</h1>
+    </div>
+    <!-- Click to count -->
+    <div class="header">
+      <h1 id="add" onclick="addNum()" class="width25">click to count</h1>
+    </div>
+    <div class="header">
+      <h1 id="numOne" onclick="addNumFuncOne()" class="width25">add one</h1>
+      <h1 id="numTwo" onclick="addNumFuncTen()" class="width25">add ten</h1>
+      <h1 id="output"></h1>
+    </div>
+    <!-- mouse over -->
+    <div class="header">
+      <h1
+        class="width25"
+        id="overId"
+        onmouseover="overFunc()"
+        onmouseleave="leaveFunc()"
+      >
+        mouse hover
+      </h1>
+    </div>
+    <!-- bootstrap js -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- copied js -->
+    <script src="copied.js"></script>
+    <!-- custom js -->
+    <script src="index.js"></script>
+  </body>
+</html>

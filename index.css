@@ -1,0 +1,22 @@
+/* custom css */
+
+/* header style */
+.header {
+  color: grey;
+  text-align: center;
+  padding: 5%;
+}
+
+/* on mouse move */
+/* centers and sets trigger to 25% */
+#hoverId {
+  width: 25%;
+  display: table;
+  margin: 0 auto;
+}
+
+.width25 {
+  width: 25%;
+  display: table;
+  margin: 0 auto;
+}
